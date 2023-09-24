@@ -15,3 +15,9 @@ $ python seed.py
 
 PYTHON_VERSION is 3.8.13
 DATABASE_URI is <postgresql>
+
+How to test locally:
+
+gunicorn app:app
+
+https://localhost:8000/birds/1.
